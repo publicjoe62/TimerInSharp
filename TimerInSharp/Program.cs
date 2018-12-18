@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace TimerInSharp
 {
@@ -6,7 +7,10 @@ namespace TimerInSharp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Timer in C#");
+            TimerExample te = new TimerExample();
+            Console.WriteLine("Timer in C# :: start");
+            te.Execute();
+            Console.WriteLine("Timer in C# :: end");
         }
     }
 }
