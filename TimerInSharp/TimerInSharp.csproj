@@ -30,6 +30,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Package>nunit</Package>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -37,6 +40,13 @@
     <Compile Include="TimerExample.cs" />
     <Compile Include="StatusChecker.cs" />
     <Compile Include="FeedCheck.cs" />
+    <Compile Include="UnitTests\ProgramUnitTest.cs" />
+    <Compile Include="UnitTests\FeedCheckUnitTest.cs" />
+    <Compile Include="UnitTests\UnitTestsBase.cs" />
+    <Compile Include="Lambda.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnitTests\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
