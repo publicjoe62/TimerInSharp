@@ -27,10 +27,13 @@ namespace TimerInSharp
             /*
             Console.WriteLine("press enter to stop.");
             Console.ReadLine();
-            Console.WriteLine("Timer in C# :: end");
             */
 
-            Lambda.lambda1();
+            // Lambda.lambda1();
+
+            new Delegates1().execute();
+
+            Console.WriteLine("Timer in C# :: end");
         }
     }
 }

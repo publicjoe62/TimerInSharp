@@ -44,6 +44,9 @@
     <Compile Include="UnitTests\FeedCheckUnitTest.cs" />
     <Compile Include="UnitTests\UnitTestsBase.cs" />
     <Compile Include="Lambda.cs" />
+    <Compile Include="Delegates1.cs" />
+    <Compile Include="TISBase.cs" />
+    <Compile Include="UnitTests\Delegates1UnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UnitTests\" />

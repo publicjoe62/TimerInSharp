@@ -13,7 +13,7 @@ namespace TimerInSharp
 
         public void execute()
         {
-            cout("execute Delegates1 ");
+            cout("execute Delegates1");
             sample1();
         }
 
